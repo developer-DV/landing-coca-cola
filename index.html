@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="./" class="logo__link">
+                        <img src="/images/Coca-Cola_logo_white 1.png" alt="logo" class="logo__link-logo">
+                    </a>
+                </div>
+                <ul class="menu-main">
+                    <li class="menu-main__item">
+                        <a href="./" class="menu-main__link">main</a>
+                    </li>
+                    <li class="menu-main__item">
+                        <a href="./" class="menu-main__link">about</a>
+                    </li>
+                    <li class="menu-main__item">
+                        <a href="./" class="menu-main__link">products</a>
+                    </li>
+                    <li class="menu-main__item">
+                        <a href="./" class="menu-main__link">contacts</a>
+                    </li>
+                </ul>
+                <nav class="menu">
+                    <ul class="menu__item">
+                        <div class="menu__item-wrapper">
+                            <li class="menu__link"><a href="./">Home</a></li>
+                            <li class="menu__link"><a href="./">About</a></li>
+                            <li class="menu__link"><a href="./">Profucts</a></li>
+                            <li class="menu__link"><a href="./">Contacts</a></li>
+                        </div>
+                    </ul>
+                    <button class="menu__btn">
+                        <span class="menu__btn-span menu__btn--active"></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section">
+            <section class="main">
+                <div class="container">
+                    <div class="main__inner">
+                        <h1 class="main__title">Main Site Title</h1>
+                        <p class="main__text">Lorem ipsum descripsum</p>
+                        <button class="main__btn">Call to action</button>
+                    </div>
+                </div>
+                <div class="main__tooltip">
+                    <span>How how how !!!</span>
+                    <span>Like it?</span>
+                    <span>Scroll down for more !</span>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <section class="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="block-top">
+                            <h1 class="block-top__title">At least somewhere you can feel new year atmosphere</h1>
+                            <p class="block-top__text">Choose your present:</p>
+                            <div class="block-top__btns">
+                                <button class="block-top__btn">
+                                    <img class="block-top__btn-img" src="./images/sock.png" title="Best sock ever" text="Regular sock have no present inside Lorem.
+                                Ipsum is simply dumm y text of the printing and types etting industry."" alt=" sock">
+                                </button>
+                                <button class="block-top__btn">
+                                    <img class="block-top__btn-img" src="./images/caps.png" title="Best caps ever" text="Regular caps have no present inside Lorem.
+                                Ipsum is simply dumm y text of the printing and types etting industry." alt="caps">
+                                </button>
+                                <button class="block-top__btn">
+                                    <img class="block-top__btn-img" src="./images/bag.png" title="Best bag ever" text="Regular bag have no present inside Lorem.
+                                Ipsum is simply dumm y text of the printing and types etting industry." alt="bag">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="block-bottom">
+                            <img src="./images/sock.png" alt="sock" class="block-bottom__img">
+                            <div class="block-bottom__box">
+                                <h3 class="block-bottom__title">Best sock ever</h3>
+                                <p class="block-bottom__text">Regular sock have no present inside Lorem.
+                                    Ipsum is simply dumm y text of the printing and types etting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="section">
+            <section class="feedback">
+                <div class="container">
+                    <div class="feedback__inner">
+                        <h1 class="feedback__title"><span>Write us</span> for real presents</h1>
+                        <div class="feedback__form">
+                            <input class="feedback__form-name feedback__form-element" type="text" name="name"
+                                placeholder="Name">
+                            <input class="feedback__form-phone feedback__form-element" type="tel" name="phone"
+                                placeholder="Phone">
+                            <div class="feedback__form-custom-select">
+                                <select class="feedback__form-select feedback__form-element">
+                                    <option selected value="men">Boy</option>
+                                    <option value="saab">Girl</option>
+                                </select>
+                                <span class="feedback__form-custom-arrow"></span>
+                            </div>
+                            <input class="feedback__form-mail feedback__form-element" type="email" name="email"
+                                placeholder="Email">
+                            <textarea class="feedback__form-text feedback__form-element" name="textarea"
+                                placeholder="Your wish"></textarea>
+                            <div class="feedback__checkbox">
+
+                                <label class="feedback__label" for="cola">
+                                    <input class="feedback__checkbox-real" type="checkbox" id="cola" name="checkbox">
+                                    <span class="feedback__checkbox-fake"></span> Whant Coca-cola with present?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/snowfall.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
